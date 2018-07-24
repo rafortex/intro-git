@@ -1,7 +1,33 @@
-body{
+html body {
 
 	margin: 0;
 	font-family: sans-serif, arial, helvetica;
+	color: green;
+
+}
+
+header {
 
 
+}
+
+.tipos-ph {
+
+	list-style-type: none;
+  margin: 0;
+  padding-left: 15px;
+  width: 115px;
+  padding-top: 11px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  background: #DF81FF;
+  padding-bottom: 10px;
+  border-bottom-width: thick;
+  border-left-width: thick;
+}
+
+.franja {
+	.nav {
+  height: 40px;
+  background: #82FF00;
 }
