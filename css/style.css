@@ -11,23 +11,57 @@ header {
 
 }
 
-.tipos-ph {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, helvetica, sans-serif;
+}
 
-	list-style-type: none;
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 11px;
+  cursor: pointer;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav {
+  height: 40px;
+  background: #82FF00;
+  
+}
+
+.tipos-ph {
+  list-style-type: none;
   margin: 0;
   padding-left: 15px;
   width: 115px;
   padding-top: 11px;
   border: 2px solid grey;
   border-radius: 8px;
-  background: #DF81FF;
+  background: blue;
   padding-bottom: 10px;
   border-bottom-width: thick;
   border-left-width: thick;
+  
 }
 
-.franja {
-	.nav {
-  height: 40px;
-  background: #82FF00;
+.tipos-ph li {
+  padding: 3px;
+}
+
+.nav:hover .ph {
+  display: block;
+}
+
+.ph {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 5px;
 }
