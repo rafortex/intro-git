@@ -65,3 +65,20 @@ body {
   top: 40px;
   left: 5px;
 }
+
+.products {
+
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.box {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	background: limegreen;
+	border-radius: 50%;
+
+}
